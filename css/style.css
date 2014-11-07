@@ -1,31 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Bentham);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-
-
 body {
-	margin: 0;
+    margin: 0;
 }
-
 html {
-	font-size: 100%;
+    font-size: 100%;
 }
+/* This styles the full page image section */
 
-.header
-	{
-		background: url('../images/header.jpg') center center;
-		background-size: cover;
-		height: 100vh;
-		line-height: 1.6em;
-			}
-
-			.header-area {
-				padding-top: 25vh;
-			}
-	
+.header {
+    background: url('../images/header.jpg') center center;
+    background-size: cover;
+    height: 100vh;
+    line-height: 1.6em;
+}
+.header-area {
+    padding-top: 25vh;
+}
+/* Logo style, centers it */
 
 .logo {
-    /* absolute center .splash within .splash-container */
-    
     text-align: center;
     text-transform: uppercase;
     border: 1px solid white;
@@ -34,77 +28,83 @@ html {
     margin-left: auto;
     margin-right: auto;
 }
-
-
 .title {
-text-align: center;
+    text-align: center;
 }
-
-
+/* Text styles */
 
 h1 {
-	font-family: 'Bentham', serif;
-	font-size: 4em;
-	color: white;
+    font-family: 'Bentham', serif;
+    font-size: 4em;
+    color: white;
 }
-
 a {
-	color: #FE4365;
+    color: #FE4365;
 }
-
 .title h1 {
-	font-size: 3em;
-	line-height: 1em
+    font-size: 3em;
+    line-height: 1em
 }
-
 h3 {
-	font-family: 'Bentham', serif;
-	font-weight: 400;
-	font-size: 1.5em;
-	color: white;
-	line-height: 1em;
+    font-family: 'Bentham', serif;
+    font-size: 1.5em;
+    color: white;
+    line-height: 1em;
 }
-
 blockquote {
-	padding: 0.4em;
-	font-family: 'Bentham', serif;
-	font-size: 1.4em;
-	text-align: center;
-	color: #2e2e2e;
+    padding: 0.4em;
+    font-family: 'Bentham', serif;
+    font-size: 1.4em;
+    text-align: center;
+    color: #2e2e2e;
 }
-
 p {
-	font-family: 'Open Sans';
-	font-size: 1.1em;
-	color: #2e2e2e;
+    font-family: 'Open Sans';
+    font-size: 1.1em;
+    color: #2e2e2e;
 }
+/* Styling the content area */
 
 .content {
-background-color: white;
+    background-color: white;
 }
-
 .content-area {
-	margin: 0 auto;
-	padding: 0 2em;
-	max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2em;
+    max-width: 800px;
 }
+/* This styles the two post headers */
 
 .post-title {
-	text-align: center;
-	font-family: 'Bentham', serif;
-	font-size: 2.2em;
-	color: #2e2e2e;
-	font-weight: normal;
-	text-transform: uppercase;
-
+    text-align: center;
+    font-family: 'Bentham', serif;
+    font-size: 2.8em;
+    color: #2e2e2e;
+    text-transform: uppercase;
 }
-
 .post-details {
-	text-align: center;
-	font-size: 1.2em;
-	font-family: 'Bentham';
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Open Sans', serif;
 }
+/* This styles the sharing area */
 
+.share-area {
+    text-align: center;
+    padding-right: 2em;
+}
+.share-buttons {
+    list-style: none;
+}
+.share-buttons li {
+    display: inline;
+}
+/* The seperator is styled here */
 
-/* Fonts */
-
+hr {
+    width: 25%;
+    margin: 3em auto;
+}
+.footer {
+    text-align: center;
+}
