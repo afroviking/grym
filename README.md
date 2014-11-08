@@ -5,9 +5,12 @@ Grym is a simple single-page layout, created using [purecss] and with icons from
 
 Single page image courtesy of [unsplash]
 
+**Demo:** [grym]
+
 [purecss]:http://purecss.io
 [Font Awesome]:http://fortawesome.github.io/Font-Awesome/
 [unsplash]:http://unsplash.com
+[grym]:http://grym.moseadan.com/
 
 ##The MIT License (MIT)
 
